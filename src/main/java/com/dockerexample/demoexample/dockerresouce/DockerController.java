@@ -12,6 +12,6 @@ public class DockerController {
 
 	@RequestMapping(value="/greet")
 	public String greeting() {
-		return "<H1>Good Morning</h1> "+name;
+		return "<H1>Good Morning</h1><B> "+name;
 	}
 }
